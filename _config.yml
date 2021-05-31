@@ -1,0 +1,10 @@
+---
+author: bingyenufe
+date: '`r format(Sys.Date())`'
+title: yebing
+output:
+  html_document:
+    toc_float: true
+    theme: readable
+    toc: true
+---
