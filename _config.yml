@@ -1,7 +1,7 @@
 ---
 author: bingyenufe
 date: '`r format(Sys.Date())`'
-title: yebing
+title: 叶兵 南京财经大学
 output:
   html_document:
     toc_float: true
