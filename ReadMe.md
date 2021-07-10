@@ -4,6 +4,6 @@
   
 ## 教学  
 [财政绩效管理](https://bingyenufe.github.io/perf_budget_2021/)（2021春）  
-[财税计量应用](https://github.com/bingyenufe/Econometrics_2021)（2021秋）  
+[财税计量应用](https://bingyenufe.github.io/Econometrics_2021/)（2021秋）  
   
 ## 科研
