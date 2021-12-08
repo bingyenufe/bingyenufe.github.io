@@ -3,7 +3,7 @@ output_dir: "docs"
 navbar:
   title: "叶兵"
   left:
-    - text: "Home"
+    - text: "主页"
       href: index.html
     - text: "简历"
       href: cv.html
@@ -11,3 +11,5 @@ navbar:
       href: courses.html
     - text: "科研"
       href: research.html
+    - text: "杂诗"
+      href: poetry.html
