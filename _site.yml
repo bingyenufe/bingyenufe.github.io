@@ -11,3 +11,5 @@ navbar:
       href: research.html
     - text: "杂诗"
       href: poetry.html
+    - text: "资源"
+      href: resources.html
