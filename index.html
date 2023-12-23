@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: black;
+            font-size: 14px;
+        }
+        div {
+            font-size: 14px;
+        }
+        a {
+            text-decoration: none;
+        }
+        .threeout {
+            display: grid;
+            grid-template-columns: 1fr 8fr 1fr;
+        }
+        .five {
+            display: grid;
+            grid-template-columns: repeat(5,100px);
+            justify-items: center;
+            background-color: lightgrey;
+        }
+        .st {
+            text-align: center;
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="five">
+        <div class="st"><a href="index.html">Home</a></div>
+        <div class="st"><a href="tea.html">教学</a></div>
+        <div  class="st"><a href="research.html">科研</a></div>
+        <div class="st"><a href="resource.html">资源</a></div>
+        <div class="st"><a href="poet.html">杂诗</a></div>
+    </div>
+    <div class="threeout">
+        <div></div>
+        <div>
+            <p><b>叶兵</b></p>
+            <p>南京财经大学，副教授</p>
+            <p>研究兴趣：公共经济学、宏观经济学</p>
+            <p><a href="https://bingyenufe.github.io/cv/">CV</a></p>
+            <p>Email: 121657961@163.com</p>
+        </div>
+        <div></div>
+    </div>
+</body>
+</html>

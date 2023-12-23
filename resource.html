@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: black;
+            font-size: 14px;
+        }
+        div {
+            font-size: 14px;
+        }
+        a {
+            text-decoration: none;
+        }
+        .threeout {
+            display: grid;
+            grid-template-columns: 1fr 8fr 1fr;
+        }
+        .five {
+            display: grid;
+            grid-template-columns: repeat(5,100px);
+            justify-items: center;
+            background-color: lightgrey;
+        }
+        .st {
+            text-align: center;
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="five">
+        <div class="st"><a href="index.html">Home</a></div>
+        <div class="st"><a href="tea.html">教学</a></div>
+        <div  class="st"><a href="research.html">科研</a></div>
+        <div class="st"><a href="resource.html">资源</a></div>
+        <div class="st"><a href="poet.html">杂诗</a></div>
+    </div>
+    <div class="threeout">
+        <div></div>
+        <div>
+            <p><b>经济学</b></p>
+            <p><mark>TBD</mark></p>
+            <br>
+            <p><b>近体诗</b></p>
+            <p>张中行的《诗词读写丛话》是很好的入门书籍。</p>
+            <p>近体诗韵律（平仄和押韵）按中古音。一个简明易懂的<a href="https://www.bilibili.com/video/BV1ks411a7hh/?p=1">中古音教程</a>。</p>
+        </div>
+        <div></div>
+    </div>
+</body>
+</html>
